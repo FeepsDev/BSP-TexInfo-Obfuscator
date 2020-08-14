@@ -5,6 +5,7 @@
 #include <iostream>
 #include <fstream>
 #include <cstring>
+#include <limits>
 #include <unordered_set>
 #include <map>
 #include "BSPFile.h"

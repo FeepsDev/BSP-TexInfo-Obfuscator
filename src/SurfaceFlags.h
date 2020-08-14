@@ -2,6 +2,9 @@
 	Created by Feeps on 24/07/2020.
 */
 
+#ifndef SURFACEFLAGS_H
+#define SURFACEFLAGS_H
+
 #include <unordered_set>
 
 namespace sf{
@@ -72,3 +75,5 @@ namespace sf{
 		return os << v; // Print integer
 	}
 }
+
+#endif

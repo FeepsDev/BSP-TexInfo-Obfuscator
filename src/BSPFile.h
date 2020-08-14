@@ -4,6 +4,8 @@
 	Some structures of this file come from Source SDK Source Code
 	https://github.com/ValveSoftware/source-sdk-2013/blob/master/sp/src/public/bspfile.h
 */
+#ifndef BSPFILE_H
+#define BSPFILE_H
 
 #define HEADER_LUMPS 64
 #define LUMP_BRUSHSIDES_INDEX 19
@@ -94,3 +96,5 @@ class BSPFile{
 		std::vector<std::string> texDataStringData;
 		std::vector<dbrushside_t> brushSide;
 };
+
+#endif

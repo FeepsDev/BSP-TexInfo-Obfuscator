@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(BSPObfuscator VERSION 0.2)
+project(BSPObfuscator VERSION 0.3)
 
 #set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_BUILD_TYPE Release)
@@ -18,5 +18,3 @@ file(GLOB_RECURSE HEADER_FILES
 
 # Define the executable
 add_executable(${PROJECT_NAME} ${HEADER_FILES} ${SOURCE_FILES})
-
-target_link_libraries(${PROJECT_NAME} -static-libgcc -static-libstdc++)

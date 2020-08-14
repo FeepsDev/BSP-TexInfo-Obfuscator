@@ -83,7 +83,6 @@ class BSPFile{
 			return header;
 		};
 
-		BSPFile(std::ifstream& infile);
 		void load(std::ifstream& infile);
 	private:
 		template<typename type>
